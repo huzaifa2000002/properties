@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200&family=Plus+Jakarta+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <script src="https://kit.fontawesome.com/9b0e489255.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9b0e489255.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./font-awesome.min.css"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+
+    
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="menu-container">
+				<!-- <h1>Top right corner, click it!</h1>
+				<p>View type 2 <a href="https://codepen.io/PaulVanO/pen/GgGeyE" target="_blank">here</a></p> -->
+			  </div>
+
+			  <div class="button_container" id="toggle">
+				<span class="top"></span>
+				<!-- <span class="middle"></span> -->
+				<span class="bottom"></span>
+			  </div>
+			  
+			  <div class="overlay" id="overlay">
+				<nav class="overlay-menu">
+				  <ul>
+					<li ><a href="#">HOME</a></li>
+					<li><a href="#">EXPLORE PROPERTIES</a></li>
+					<li><a href="#">ABOUT US</a></li>
+					<li><a href="#">OUR NEWS</a></li>
+					<li><a href="#">CAREERS</a></li>
+					<li><a href="#">CONTACT US</a></li>
+				  </ul>
+				</nav>
+			  </div>
+			<div class="nav-image">
+				<video width="1600" height="800%" autoplay mute loop src="./istockphoto-1220487170-640_adpp_is.mp4" class="my-video" onclick="playPause()"></video>
+				<!-- <video width="100%" height="100%" autoplay mute loop src="./istockphoto-1220487170-640_adpp_is.mp4" class="my-video" onclick="playPause()"></video> -->
+				<div class="pausebtn"  onclick="playPause()"></div>  
+			</div>
+				<div class="top">
+					<div class="logo-left">
+						<img src="./AlpagoProperties-Web-Asessts/Logo.png" alt="">
+						<!-- <div class="menu">
+							<i class="fa-solid fa-grip-lines"></i>
+							
+						</div> -->
+						
+					</div>
+	
+				</div>
+				<div class="nav-container">
+					<div class="nav-content">
+						<div class="rectangle"></div>
+						<h1>LESS IS MORE:</h1>
+						<h4 id="first">REDEFINING <span>&nbsp;THE</span> </h4>
+						<h4 id="second">TRUE LUXURY </h4>
+						<button class="button-cs">CASE STUDY</button>
+					</div>
+				</div>
+			
+		</nav>
+	</header>
+	<main>
+        <div class="carosel">
+            <!-- <div class="image">
+                <img src="./AlpagoProperties-Web-Asessts/1-framedalure.jpg" alt="">
+                <div class="gold-sq">
+                </div>
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                <div class="gold-sq1">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </div>
+            </div> -->
+            <!-- <div class="main-container">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi provident earum amet debitis laudantium labore perspiciatis iste temporibus consequatur incidunt quasi illo </p>
+                <div class="button-container">
+                    <button class="button-cs">Read More</button>
+                </div>
+             
+                <div class="numbers">
+                    <button class="main-list"> 1</button>
+                    <button class="main-list"> 2</button>
+                    <button class="main-list"> 3</button>
+                    <button class="main-list"> 4</button>
+                    <button class="main-list"> 5</button>
+                    
+                </div>
+                
+            </div> -->
+            <div class="center-slider-container">
+                <div class="center-slider">
+                    <div class="slide">
+                        <img src="./AlpagoProperties-Web-Asessts/1-framedalure.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./AlpagoProperties-Web-Asessts/2-casadesolo.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./AlpagoProperties-Web-Asessts/3-sereneversente.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./AlpagoProperties-Web-Asessts/4-kuralvista.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./AlpagoProperties-Web-Asessts/5-thepalmflower.jpg" alt="">
+                    </div>
+            
+            
+                </div>
+            </div>
+            <div class="slider-box">
+                <div class="main-container">
+                    <h2>Lorem ipsum dolor sit amet</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi provident earum amet debitis laudantium Excepturi provident earum amet debitis laudantium
+                    </p>
+                    <div class="button-container">
+                        <button class="button-cs">Read More</button>
+                    </div>
+            
+                </div>
+            </div>
+            <div class="gold-sq1">
+                <div class="arrow-prev">
+                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="gold-sq2">
+                <div class="arrow-next">
+                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="our-news">
+               <div class="parent">
+                <div class="side-indicator">
+    
+                </div>
+                <div class="our-news-head">
+                    <h1>Our <span>&nbsp;News</span></h1>
+                    
+                </div>
+               </div>
+                <div class="our-news-p">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem temporibus, illo quas autem sint earum nulla voluptatum odio, voluptate dolore esse corrupti fuga ullam assumenda? Error quasi dicta hic molestiae!</p>
+                </div>
+     
+         <div class="collection">
+            <div class="collection-container">
+                <div class="col1">
+                    <div class="on-top-text-container">
+                    <p class="on-top-text">British firm Foster+ Partners to design Alpgao Group's ulta- luxury, one unit-p</p>
+                    <img src="./AlpagoProperties-Web-Asessts/6-blogs.jpg" alt="">
+                    <div id="chevron-arrow-left"></div>
+                    <div id="circle"></div>
+                    </div>
+                </div>
+                <div class="col2">
+                    <p class="on-top-text1">British firm Foster+ Partners to design Alpgao Group's ulta- luxury, one unit-p</p>
+                    <div class="on-top-text-container1">
+                    <img id="below" src="./AlpagoProperties-Web-Asessts/5-press release.jpg" alt="">
+                    <div id="chevron-arrow-right"></div>
+                    <div id="circle1"></div>
+                    </div>
+
+                    
+                </div>
+                <div class="col3">
+                    <p class="on-top-text2">British firm Foster+ Partners to design Alpgao Group's ulta- luxury, one unit-p</p>
+                    <div class="on-top-text-container2">
+                    <img src="./AlpagoProperties-Web-Asessts/7-events.jpg" alt="">
+                    <div id="chevron-arrow-right"></div>
+                    <div id="circle2"></div>
+                    </div>
+                </div>
+             </div>
+         </div>
+    </div>
+
+            <div class="recent-posts">
+                <div class="parent-recent-post">
+                    <div class="side-indicator-recent-post">
+        
+                    </div>
+                    <div class="recent-post-head">
+                        <h1>Recent <span>&nbsp;Posts</span></h1>
+                    </div>
+                        <div class="recent-post-container">
+                            <div class="recent-post-image">
+                                <img src="./AlpagoProperties-Web-Asessts/Group 51.png" alt="">
+                            </div>
+                            <div class="recent-post-content">
+                                <p id="content-line-one" >Behind every successful buiness, there is a woman. We wish you a Happy Women's Day!</p>
+                                <p>#alpagogroup #alpagoproperties #womensday # womenday</p>
+                                <div class="arrow-right">
+                                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    
+                   </div>
+
+
+            </div>
+        </div>
+        
+   
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="white-part">
+                <div class="logo-part">
+                    <img src="./AlpagoProperties-Web-Asessts/Group 10.png" alt="">
+                </div>
+                <div class="social-part">
+                    <div class="social-content">
+                    <p>CONTACT</p>
+                    <br>
+                    <p>Office 2603 Level 26</p>
+                    <p>Boulevard Plaza Tower 1</p>
+                    <p>Opposite Burj Khalifa Dubai</p>
+                    <br>
+                    <p>+971 04 263 0022</p>
+                    <br>
+                    <p>info@alogoproperties.com</p>
+                    </div>
+                    <div class="social-content-logo">
+                        <img id="f" src="./AlpagoProperties-Web-Asessts/ico_facebook_ACTIVE.png" alt="">
+                        <img id="p" src="./AlpagoProperties-Web-Asessts/ico_pinterest_passive.png" alt="">
+                        <img id="l" src="./AlpagoProperties-Web-Asessts/ico_linkedin_passive.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="gold-part">
+                <div class="gold-part-container">
+                    <div class="links-part">
+                        <ul>
+                            <li><a href="#">USEFUL LINKS</a></li>
+                            <li><a href="#">NEWS/PRESS RELEASE</a></li>    
+                            <li><a href="#">ABOUT ALPAGO</a></li>
+                            <li><a href="#">PRIVACY POLICY</a></li>
+                            <li><a href="#">TERMS OF SERVICE</a></li>
+                        </ul>
+                    </div>
+                    <div class="form-part">
+                        <form action="">
+                            <label for="" class="form-label">Newsletter</label><br>
+                            <input type="email" placeholder="Your e-mail" class="email">
+                            <button class="submit">Submit</button>
+                            <p>By submitting your email, you accept the privacy policy.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+</body>
+</html>
+
+<!--  ======================= PLAY PAUSE BUTTON ======================= -->
+<script>
+    let myVideo = document.querySelector('.my-video');
+    
+function playPause(){
+if(myVideo.paused){
+    myVideo.play();
+;
+}
+else{
+    myVideo.pause();
+}
+}
+</script>
+<script>
+$( document ).ready(function() {
+$(myVideo).click(function(){
+$(".pausebtn").toggleClass('playbtn');
+});
+
+$(".pausebtn").click(function(){
+$(".pausebtn").toggleClass('playbtn');
+});
+});
+</script>
+<!-- menu -->
+<script>
+    $('#toggle').click(function() {
+   $(this).toggleClass('active');
+   $('#overlay').toggleClass('open');
+   $('.pausebtn').toggleClass('hide');
+   $('.nav-container').toggleClass('hide');
+  });
+</script>
+<!-- slider -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/slick.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        // $('.center').slick();
+        $('.center-slider').on('init',function(){
+    $(".slick-active").prev().removeClass('nex-trans').addClass('prev-trans');
+    $(".slick-active").next().removeClass('pre-trans').addClass('next-trans');
+});
+        $('.center-slider').slick({
+            centerMode: true,
+            centerPadding: '1px',
+            slidesToShow: 1,
+            dots: true,
+            customPaging: function (slider, i) {
+                var thumb = $(slider.$slides[i]).data();
+                return '<a class="dot">' + (i + 1) + '</a>';
+            },
+            prevArrow: '.arrow-prev',
+            nextArrow: '.arrow-next',
+            // prevArrow: '<button class="slide-arrow prev-arrow"></button>',
+            //   nextArrow: '<button class="slide-arrow next-arrow"></button>',
+            responsive: [
+                {
+                    breakpoint: 1768,
+                    settings: {
+
+                        centerMode: true,
+                        centerPadding: '300px',
+                        // leftPadding:'100px',
+                        dots: true,
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+
+                        centerMode: true,
+                        centerPadding: '0px',
+                        dots: true,
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        }).on('afterChange',function(){
+    console.log($(".slick-active"));
+    $(".slick-active").prev().removeClass('nex-trans').addClass('prev-trans');
+    $(".slick-active").next().removeClass('pre-trans').addClass('next-trans');
+});;
+    });
+</script>
+<!-- <script>
+    $(document).ready(function () {
+$('.center-slider').on('afterChange', function(e, s, currentSlideIndex) {
+let previousSlideIndex = currentSlideIndex - 1 ;
+if(previousSlideIndex < currentSlideIndex){
+    $('.slick-cloned').addClass('.left-transform');
+}
+alert(previousSlideIndex);
+
+});
+});
+</script>  -->
+
+
+
+<!-- <script>
+    $(document).ready (function(){
+        $('.center-slider').on('afterChange', function(currentSlideIndex){
+                if([data-slick-index] === '-1'){
+                    alert('nice');
+                }
+        });
+    });
+</script> -->
